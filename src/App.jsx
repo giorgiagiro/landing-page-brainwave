@@ -8,9 +8,7 @@ const App = () => {
         <>
             <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
                 <h1>sxhecw</h1>
-                <button className="mt-10" href="#login">
-                    Something
-                </button>
+                <button className="mt-10">Something</button>
             </div>
             <ButtonGradient />
         </>
