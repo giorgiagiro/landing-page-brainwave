@@ -18,12 +18,11 @@ const Section = ({ className, id, crosses, crossesOffset, customPaddings, childr
             {crosses && (
                 <>
                     <div
-                        className={`hidden absolute yop-0 left-7.5 right-7.5 h-0.25 bg-stroke-1 ${
+                        className={`hidden absolute top-0 left-7.5 right-7.5 h-0.25 bg-stroke-1 ${
                             crossesOffset && crossesOffset
                         } pointer-events-none lg:block xl:left-10 right-10`}
-                    >
-                        <SectionSvg crossesOffset={crossesOffset} />
-                    </div>
+                    ></div>
+                    <SectionSvg crossesOffset={crossesOffset} />
                 </>
             )}
         </div>
