@@ -1,5 +1,5 @@
-import React from "react";
-import SectionSvg from "../assets/svg/SectionSvg";
+import React from "react"
+import SectionSvg from "../assets/svg/SectionSvg"
 
 const Section = ({ className, id, crosses, crossesOffset, customPaddings, children }) => {
     return (
@@ -27,7 +27,7 @@ const Section = ({ className, id, crosses, crossesOffset, customPaddings, childr
                 </>
             )}
         </div>
-    );
-};
+    )
+}
 
-export default Section;
+export default Section
